@@ -1,16 +1,3 @@
 import comp from "D:/FWC/fwc_devBook/docs/.vuepress/.temp/pages/dev-log/tech-back.html.vue"
-const data = JSON.parse("{\"path\":\"/dev-log/tech-back.html\",\"title\":\"后端选型\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"dev-log/tech-back.md\"}")
+const data = JSON.parse("{\"path\":\"/dev-log/tech-back.html\",\"title\":\"后端选型\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1765966818000,\"contributors\":[{\"name\":\"shanyuguangyun\",\"username\":\"shanyuguangyun\",\"email\":\"983393186@qq.com\",\"commits\":1,\"url\":\"https://github.com/shanyuguangyun\"}],\"changelog\":[{\"hash\":\"a63a27508948c53c206b7bf385308ca9fd5f7902\",\"time\":1765966818000,\"email\":\"983393186@qq.com\",\"author\":\"shanyuguangyun\",\"message\":\"init\"}]},\"filePathRelative\":\"dev-log/tech-back.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

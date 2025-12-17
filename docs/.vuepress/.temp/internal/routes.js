@@ -10,20 +10,3 @@ export const routes = Object.fromEntries([
   ["/fwc-hr/fwc-hr.html", { loader: () => import(/* webpackChunkName: "fwc-hr_fwc-hr.html" */"D:/FWC/fwc_devBook/docs/.vuepress/.temp/pages/fwc-hr/fwc-hr.html.js"), meta: {"title":"人事系统"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"D:/FWC/fwc_devBook/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
