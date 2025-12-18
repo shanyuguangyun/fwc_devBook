@@ -4,7 +4,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-
+  base: "/fwc_devBook/",
   title: 'FWC开发日志',
   description: 'FWC系统开发日志',
 
