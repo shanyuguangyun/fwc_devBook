@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>FWC开发日志</title><meta name="description" content="FWC系统开发日志">
+    <link rel="preload" href="/fwc_devBook/assets/style-B3-VMakp.css" as="style"><link rel="stylesheet" href="/fwc_devBook/assets/style-B3-VMakp.css">
+    <link rel="modulepreload" href="/fwc_devBook/assets/app-BSc7Ew53.js"><link rel="modulepreload" href="/fwc_devBook/assets/404.html-D9digLsi.js">
+    <link rel="prefetch" href="/fwc_devBook/assets/index.html-Dw1q8AeJ.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/dev-log-backend.html-IZBON0wL.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/dev-log-front.html-J62mDT7F.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/tech-back.html-Bp5nwGld.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/tech-docs.html-hVY0urLq.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/tech-front.html-DNumEq4v.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/fwc-hr.html-BYmgknW7.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>There&#39;s nothing here.</blockquote><a class="route-link" href="/fwc_devBook/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/fwc_devBook/assets/app-BSc7Ew53.js" defer></script>
+  </body>
+</html>
