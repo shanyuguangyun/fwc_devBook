@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>FWC开发日志</title><meta name="description" content="FWC系统开发日志">
+    <link rel="preload" href="/fwc_devBook/assets/style-B3-VMakp.css" as="style"><link rel="stylesheet" href="/fwc_devBook/assets/style-B3-VMakp.css">
+    <link rel="modulepreload" href="/fwc_devBook/assets/app-CbF24u6c.js"><link rel="modulepreload" href="/fwc_devBook/assets/404.html-BwzfId5s.js">
+    <link rel="prefetch" href="/fwc_devBook/assets/index.html-BMCcfAti.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/dev-log-backend.html-CjC4euzB.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/dev-log-front.html-BS3vIH2x.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/fwc-hr.html-B1T5YPvH.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/skill-front.html-Ce3iVyVd.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/tech-back.html-DvR-x3YA.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/tech-docs.html-CyrO5YCp.js" as="script"><link rel="prefetch" href="/fwc_devBook/assets/tech-front.html-D_3bCUuq.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/fwc_devBook/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/fwc_devBook/assets/app-CbF24u6c.js" defer></script>
+  </body>
+</html>
